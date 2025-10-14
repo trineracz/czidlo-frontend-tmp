@@ -1,45 +1,78 @@
-Poslání
+# Pravidla
 
-ČIDLO je systém pro trvalou identifikaci digitálních dokumentů českého kulturního dědictví, který využívá standard URN:NBN a je řízen Národní knihovnou ČR, která tento systém spravuje a koordinuje ve spolupráci s dalšími institucemi, přičemž tato spolupráce je nezbytnou podmínkou úspěšného fungování celého systému.
+---
 
-ČIDLO slouží jednak knihovnám a dalším institucím z oblasti českého kulturního dědictví, a to pro jejich potřeby trvalé identifikace jejich digitálních dokumentů (procesy dlouhodobé správy, archivace a zpřístupňování digitálních dokumentů), jednak uživatelům, a to jako prostředek pro zajištění trvalého zpřístupňování digitálních dokumentů v internetové síti (řešení problému nestability a proměnlivosti URL adres) nebo jako prostředek pro zajištění důvěryhodnosti citační praxe (řešení problému ověřování autenticity citovaných dokumentů).
+## Poslání
+**ČIDLO** je systém pro trvalou identifikaci digitálních dokumentů českého kulturního dědictví, který využívá standard **URN:NBN** a je řízen **Národní knihovnou ČR**, jež tento systém spravuje a koordinuje ve spolupráci s dalšími institucemi. Tato spolupráce je nezbytnou podmínkou úspěšného fungování celého systému.
 
-Struktura
+ČIDLO slouží:
+- **knihovnám a dalším institucím** (pro potřeby dlouhodobé správy, archivace a zpřístupňování digitálních dokumentů),  
+- **uživatelům** (zajištění trvalého zpřístupňování dokumentů v síti, řešení nestability URL adres, důvěryhodnost citační praxe a ověřování autenticity citovaných dokumentů).  
 
-ČIDLO se skládá z pravidel, technických podsystémů (zejména resolver, API, OAI-PMH data provider), zapojených institucí a jejich pověřených zaměstnanců, identifikátorů URN:NBN pro český jmenný prostor (tj. identifikátorů začínajících řetězcem „urn:nbn:cz“) a k nim přidružených metadat. Roli centrální autority vykonává – v souladu se standardem URN:NBN – výlučně Národní knihovna ČR jakožto centrální autorita pro Českou republiku. Hlavním zástupcem centrální autority je kurátor resolveru, koordinátor celého systému, který poskytuje registrátorům podrobné informace o pravidlech systému, poskytuje jim konzultace a rozhoduje, zda daný dokument splňuje parametry kulturního dědictví. Lze jej kontaktovat na adrese urnnbn@nkp.cz.
+---
 
-Spolupracující instituce zapojené do systému ČIDLO plní jednu nebo více z následujících rolí: registrátor (vlastník dokument, který si nechává přidělovat URN:NBN pro své dokumenty a který ručí za dodržování pravidel systému), archivátor (ten, kdo digitální dokumenty trvale archivuje v digitálním repozitáři), provozovatel digitální knihovny (ten, kdo digitální dokumenty zpřístupňuje ve své digitální knihovně pro uživatele). Roli registrátora, archivátora a provozovatele digitální knihovny může plnit jedna a tatáž instituce, anebo může instituce s rolí registrátora spolupracovat s jinými institucemi, které za ni některé tyto role plní na základě vzájemných dohod. Registrátora může částečně zastupovat digitalizační firma, zejména ve fázi produkce dokumentů.
+## Struktura
+ČIDLO se skládá z:
+- pravidel,  
+- technických podsystémů (resolver, API, OAI-PMH data provider),  
+- zapojených institucí a jejich pověřených zaměstnanců,  
+- identifikátorů **URN:NBN** pro český jmenný prostor (`urn:nbn:cz`),  
+- přidružených metadat.  
 
-Předmětem identifikace v systému ČIDLO je takový digitální dokument, který lze považovat za součást českého kulturní dědictví a který bude dlouhodobě archivován a trvale zpřístupňován uživatelům v digitálních knihovnách na nekomerční bázi. Digitální dokument musí mít neměnnou povahu z hlediska obsahu (např. aktualizované články jsou z identifikace vyloučeny).
+### Centrální autorita
+- Roli centrální autority vykonává **Národní knihovna ČR**, v souladu se standardem URN:NBN.  
+- Hlavní zástupce: **kurátor resolveru** – koordinátor celého systému.  
+  - poskytuje registrátorům informace o pravidlech,  
+  - poskytuje konzultace,  
+  - rozhoduje o parametrech kulturního dědictví.  
+- Kontakt: 📧 [urnnbn@nkp.cz](mailto:urnnbn@nkp.cz)  
 
-Systém ČIDLO je v současné fázi určen pro identifikaci nových dokumentů, které jsou produkovány v rámci současných digitalizačních projektů.
+### Role spolupracujících institucí
+- **Registrátor** – vlastník dokumentu, který žádá o přidělení URN:NBN a ručí za dodržování pravidel.  
+- **Archivátor** – instituce, která trvale archivuje digitální dokumenty v repozitáři.  
+- **Provozovatel digitální knihovny** – instituce, která dokumenty zpřístupňuje uživatelům.  
 
-Registrátoři
+Jedna instituce může plnit všechny role, nebo je možné spolupracovat na základě dohod. Registrátora může v určité fázi zastupovat **digitalizační firma**.
 
-Registrátorem systému ČIDLO se mohou stát všechny registrované knihovny v ČR, u dalších institucí záleží na dohodě s kurátorem a především na tom, zda jejich dokumenty splňují pravidlo o významu dokumentu z hlediska českého kulturního dědictví. Společnou podmínkou pro všechny registrátory je dodržování všech pravidel systému ČIDLO.
+### Předmět identifikace
+- digitální dokumenty, které lze považovat za součást **českého kulturního dědictví**,  
+- dokumenty dlouhodobě archivované a zpřístupňované v **digitálních knihovnách** na nekomerční bázi,  
+- dokumenty s **neměnným obsahem** (např. aktualizované články jsou vyloučeny).  
 
-Každá instituce, která se chce systému ČIDLO zúčastnit (tj. stát se registrátorem), musí nejprve kontaktovat kurátora resolveru (urnnbn@nkp.cz). Kurátor ji seznámí s detailními pravidly systému a technickými postupy. Registrátor může být zastupován firmou (např. v průběhu digitalizace) nebo spolupracovat při dodržování pravidel s jinými institucemi (např. jinými institucemi, které provozují digitální repozitáře nebo digitální knihovny).
+V současnosti je systém určen pro **nově produkované dokumenty** v rámci digitalizačních projektů.  
 
-Archivátoři
+---
 
-Archivátorem je knihovna či jiná instituce, která zajišťuje archivaci digitálních dokumentů. Zpravidla je to sám registrátor, který se však může dohodnout s jinou institucí o archivaci svých dig. dokumentů.
+## Registrátoři
+- Registrátorem se mohou stát všechny **registrované knihovny v ČR**.  
+- Další instituce se mohou zapojit po dohodě s kurátorem a pokud jejich dokumenty splňují podmínku kulturní hodnoty.  
+- Všichni registrátoři musí dodržovat pravidla systému ČIDLO.  
 
-Pravidla pro registrátory
+### Postup
+- Instituce musí nejprve kontaktovat **kurátora resolveru** 📧 [urnnbn@nkp.cz](mailto:urnnbn@nkp.cz).  
+- Kurátor seznámí zájemce s pravidly a technickými postupy.  
+- Registrátor může být zastupován firmou (během digitalizace) nebo spolupracovat s jinými institucemi (repozitáře, knihovny).  
 
-1. Proces přidělování URN:NBN se musí uskutečnit v rámci probíhající nové digitalizace, a to v okamžiku dokončení digitalizace tištěné předlohy (tj. v okamžiku vytvoření kompletního archivního a uživatelského balíčku). Technicky je proces přidělování realizován komunikací mezi API systému CZIDLO a digitalizačním softwarem na straně registrátora.
+---
 
-2. Registrátor musí ve fázi přidělení identifikátoru dodat do CZIDLO stanovená bibliografická a technická metadata vážící se k danému digitálnímu dokumentu. Specifikaci požadovaných metadat zašle registrátorovi kurátor.
+## Archivátoři
+- Archivátorem je zpravidla registrátor, který uchovává své dokumenty.  
+- Archivaci je možné smluvně zajistit i jinou institucí.  
 
-3. Registrátor musí zajistit, aby tentýž přidělený identifikátor byl zapsán do metadat obou derivátů digitalizovaného dokumentu (archivní / uživatelský balíček). Archivní balíček je následně uložen do digitálního repozitáře (dlouhodobá ochrana) a uživatelský balíček do digitální knihovny (zpřístupňování uživatelům).
+---
 
-4. Registrátor musí zajistit, aby tyto balíčky nebyly nikdy signifikantně změněny. Pokud dojde k jejich signifikantní změně, musí si registrátor nechat přidělit nové URN:NBN. Za signifikantní změny se považuje zejména rozdělení na dva nebo více dokumentů nebo naopak sloučení více dokumentů do jednoho, dále například změna identifikačních údajů (např. názvu), zatímco např. překlep v těchto údajích nikoliv (jednotlivé sporné případy je třeba konzultovat s kurátorem).
-
-5. V digitální knihovně musí registrátor vystavit identifikovaný dokument tak, aby byl identifikátor URN:NBN viditelný pro čtenáře a uvedený v sekci s bibliografickými metadaty (např. názvem) popisujícími tento dokument.
-
-6. Registrátor musí v digitální knihovně URN:NBN namapovat do metadat pro svůj OAI-provider.
-
-7. Registrátor musí záhy po vystavení dokumentu v digitální knihovně kontaktovat kurátora a dojednat s ním proces sklízení aktuálních adres URL odkazujících na momentální internetové umístění dokumentu (proces sklízení přes protokol OAI-PMH).
-
-8. S detailnějšími pravidly seznámí registrátory kurátor před jejich registrací. V případě jakýchkoliv nejasností musí registrátor vždy kontaktovat kurátora.
-
-9. Komplexní návod obsahuje certifikovaná metodika s názvem Metodika pro přidělování a správu životního cyklu unikátních perzistentních identifikátorů digitálních dokumentů podle standardu URN:NBN, která je dostupná na webu NDK (https://standardy.ndk.cz/ndk/archivace/resolver-urn-nbn-sluzba-cidlo; https://standardy.ndk.cz/ndk/archivace/Certifik_metodika_urnnbn_2018.pdf) a pomocí odkazu https://resolver.nkp.cz/urn:nbn:cz:nk-004hvy.
+## Pravidla pro registrátory
+1. **Přidělování URN:NBN** probíhá v okamžiku dokončení digitalizace (vytvoření archivního a uživatelského balíčku). Proces probíhá komunikací mezi API CZIDLO a digitalizačním softwarem.  
+2. Registrátor musí dodat do CZIDLO **stanovená bibliografická a technická metadata**. Specifikaci poskytuje kurátor.  
+3. Tentýž identifikátor musí být zapsán do metadat **archivního i uživatelského balíčku**. Archivní balíček jde do repozitáře, uživatelský do digitální knihovny.  
+4. Balíčky nesmí být signifikantně změněny. Pokud ano → nový URN:NBN.  
+   - Signifikantní změny: rozdělení/sloučení dokumentů, změna identifikačních údajů (např. názvu).  
+   - Nesignifikantní změny: drobné překlepy.  
+   - Sporné případy → konzultace s kurátorem.  
+5. V digitální knihovně musí být dokument vystaven s **viditelným URN:NBN** v sekci metadat.  
+6. Registrátor musí **mapovat URN:NBN do metadat pro OAI-provider**.  
+7. Po vystavení dokumentu musí registrátor kontaktovat kurátora a dojednat **proces sklízení adres URL přes OAI-PMH**.  
+8. Kurátor před registrací seznámí zájemce s detailnějšími pravidly. V případě nejasností je nutné kurátora kontaktovat.  
+9. **Certifikovaná metodika**:  
+   - [Metodika – resolver.nkp.cz](https://resolver.nkp.cz/urn:nbn:cz:nk-004hvy)  
+   - [Standardy NDK (obecná stránka)](https://standardy.ndk.cz/ndk/archivace/resolver-urn-nb)
