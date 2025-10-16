@@ -1,9 +1,3 @@
-# CZIDLO
-
-**CZIDLO** je softwarový nástroj pro podporu národního systému trvalé identifikace **ČIDLO** (Český systém pro identifikaci a lokalizaci dokumentů digitálního kulturního dědictví) založeného na standardu **URN:NBN**.
-
----
-
 ## Aktuality
 - **8. 10. 2017** byla nasazena nová verze softwaru CZIDLO (verze 4.3) s novými funkcionalitami – viz projektová stránka.  
 - **14. 1. 2019** byla nasazena nová verze softwaru CZIDLO (verze 4.6) s novými funkcionalitami – viz projektová stránka.
