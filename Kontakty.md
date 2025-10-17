@@ -1,0 +1,2 @@
+TODO: kontakty česky
+
