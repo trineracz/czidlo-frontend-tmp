@@ -1,7 +1,3 @@
-# Pravidla
-
----
-
 ## Poslání
 **ČIDLO** je systém pro trvalou identifikaci digitálních dokumentů českého kulturního dědictví, který využívá standard **URN:NBN** a je řízen **Národní knihovnou ČR**, jež tento systém spravuje a koordinuje ve spolupráci s dalšími institucemi. Tato spolupráce je nezbytnou podmínkou úspěšného fungování celého systému.
 
