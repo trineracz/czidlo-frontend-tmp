@@ -1,3 +1,3 @@
-## Contacts
+## Contact
 
 TODO
