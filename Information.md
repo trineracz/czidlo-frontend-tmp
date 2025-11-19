@@ -1,3 +1,3 @@
 ## Information
 
-TODO
+TODO: Information page in english
